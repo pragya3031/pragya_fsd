@@ -1,0 +1,45 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'
+*{
+    margin: 0px;
+    padding:0px;
+} 
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width:20%;
+    box-shadow: 10px 10px 10px 2px black;
+    background-color: antiquewhite;
+    margin: 30px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    
+
+
+}
+.title{
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.des{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button{
+
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+}
+.button:hover{
+    background-color: aquamarine;
+    box-shadow: 2px 2px 2px 2px yellow;
+}
+.main{
+    display:flex;
+}
